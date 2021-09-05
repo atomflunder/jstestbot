@@ -9,6 +9,7 @@ module.exports = {
             return;
         }
 
+        
         var user = args[0];
 
         //fetch the user with the user id
