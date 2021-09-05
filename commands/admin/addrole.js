@@ -8,8 +8,6 @@ module.exports = {
             message.channel.send("You do not have the required access to this command!");
             return;
         }
-        
-        //test
 
         var user = args[0];
 
