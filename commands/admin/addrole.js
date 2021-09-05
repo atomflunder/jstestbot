@@ -1,6 +1,7 @@
 const fuzzysort = require('fuzzysort')
 module.exports = {
     name: 'addrole',
+    aliases: ['ar', 'adrole'],
     description: 'Adds a role to a user. Searches for closest matching role or uses ID. Mention the user first, then the role.',
     async execute(client, message, args, Discord){
         //checks your permissions, admin only command

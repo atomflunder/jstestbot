@@ -1,6 +1,7 @@
 const fuzzysort = require('fuzzysort')
 module.exports = {
     name: 'removerole',
+    aliases: ['rr'],
     description: 'Removes a role from a user. Searches for the closest matching role or uses ID. Mention the user first, then the role.',
     async execute(client, message, args, Discord){
         //checks your permissions, admin only command
