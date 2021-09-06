@@ -13,5 +13,5 @@ module.exports = (client, Discord) =>{
             }
         }
     }
-    ['test', 'admin'].forEach(e => command_files(e))
+    ['usercommands', 'admin'].forEach(e => command_files(e))
 }
