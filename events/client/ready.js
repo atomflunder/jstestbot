@@ -1,6 +1,6 @@
 module.exports = (Discord, client, message) =>{
     //basic log to the console that the bot logged in
-    console.log(`Ready! Connected as jstestbot#6691.`);
+    console.log(`Ready! Connected as ${client.user.tag}.`);
 
     //cycling statuses
     const statuses = [
