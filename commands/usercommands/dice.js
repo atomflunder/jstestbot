@@ -35,7 +35,7 @@ module.exports = {
         var results = []
 
         //rolling the dice X times and appending the result
-        for(x=0; x<amount; x++){;
+        for(x=0; x<amount; x++){
             results.push(1 + Math.floor(Math.random()*sides));
         }
         
