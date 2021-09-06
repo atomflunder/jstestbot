@@ -16,7 +16,7 @@ module.exports = {
         var user_id = user.replace(/[<, @, !, >]+/g, "")
 
         //confirm the user exists
-        //can fetch the member object since for a kick you need to be on the server
+        //need to fetch the member
         let member = await message.guild.members.fetch(user_id).catch(() => null);
 
         if(!user || !member){
