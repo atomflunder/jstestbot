@@ -6,7 +6,7 @@ module.exports = {
         //defines the outcomes
         const coin = ['Heads', 'Tails'];
 
-        //gets a random outcome
+        //gets a random outcome between 0 and 1
         var number = Math.floor(Math.random() * 2);
 
         //sends back that outcome
