@@ -46,7 +46,7 @@ module.exports = {
                 {name: "Created at:", value:`<t:${Math.floor(new_role.createdTimestamp / 1000)}:F>`, inline:true},
                 {name: "Mentionable:", value:`${new_role.mentionable}`, inline:true},
                 {name: "Displayed Separately:", value:`${new_role.hoist}`, inline:true},
-                //hex colour is what the discord settings use
+                //hex colour is what the discord settings use. makes it easier to copy
                 {name: "Colour:", value: `${new_role.hexColor}`, inline:true},
             );
         
